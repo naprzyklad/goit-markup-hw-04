@@ -173,7 +173,6 @@
 .footer-content {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-writing {
   color: var(--footer-logo-color);
@@ -183,11 +182,11 @@
 }
 .footer-text {
   gap: 120px;
+  margin-right: 120px;
 }
 
 .social-media {
   align-items: baseline;
-  margin-left: 120px;
 }
 .social-list {
   display: flex;
@@ -200,6 +199,7 @@
   letter-spacing: 0.32px;
   color: #ffffff;
   margin-bottom: 16px;
+  line-height: 1.5;
 }
 
 /*__________________________________________________________Hero section__________________________________________________________*/

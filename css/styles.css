@@ -139,6 +139,28 @@
   letter-spacing: 0.02em;
   width: 264px;
 }
+
+.social-media {
+}
+.social-list {
+  width: 208px;
+  height: 80px;
+  flex-shrink: 0;
+  display: inline-flex;
+}
+.social-title {
+  font-size: 16px;
+  font-weight: 96px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+}
+.social-link > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
 /*__________________________________________________________Hero section__________________________________________________________*/
 /*__________________________________________________________Main title___________________________________________________________*/
 .hero {
@@ -203,6 +225,7 @@
   letter-spacing: 0.02em;
   color: var(--head-color);
   margin-bottom: 8px;
+  box-shadow: black;
 }
 
 .goals-content {
@@ -289,6 +312,19 @@
 
 .team-photo {
   padding: 32px 0px;
+}
+/*________________________________________________________________Customers____________________________________________________________*/
+.customers-head {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--head-color);
+  margin-bottom: 120px;
+}
+.list-customers {
+  display: flex;
 }
 
 /*_____________________________________________________________________________________________________________________________________*/

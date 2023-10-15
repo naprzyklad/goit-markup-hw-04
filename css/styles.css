@@ -294,6 +294,16 @@
 .li-goals {
   width: calc((100% - 72px) / 4);
 }
+
+.goals-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 /*__________________________________________________________WHAT ARE WE DOING_____________________________________________________*/
 .wawd-section {
   padding-top: 0;
@@ -445,6 +455,16 @@
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.project-link {
+  display: block;
+}
+
+.project-link:focus,
+.project-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 /*_______________________________________________________________FILTER BUTTONS___________________________________________*/
 .filter-list {
   display: flex;

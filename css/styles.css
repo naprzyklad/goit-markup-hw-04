@@ -347,6 +347,7 @@
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+
 .team-head {
   font-size: 36px;
   line-height: 1.11;
@@ -383,7 +384,9 @@
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 8px;
 }
+
 .ourteam-target-link:focus,
 .ourteam-target-link:hover {
   background-color: #404bbf;

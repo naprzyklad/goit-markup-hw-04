@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="images/icons.svg">
+    <link rel="stylesheet" href="images/close-button.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Playfair+Display&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./modal.js">
 </head>
 <!-------------------------------------------------------------HEADER------------------------------------------------------------------>
 
@@ -42,8 +44,18 @@
             <div class="head-align container">
                 <h1 class="head-title">Effective Solutions
                     for Your Business</h1>
-                <button class="order-button" type="button">Order Service</button>
+                <button class="order-button" type="button" data-modal-open>Order Service</button>
             </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button type="button" class="close-form" data-modal-close>
+                        <svg class="close-btn">
+                            <use href="./images/close-button.svg#close-btn"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
         </section>
         <!-------------------------------------------------------------GOALS------------------------------------------------------------------>
         <section class="section">
@@ -361,6 +373,7 @@
             </div>
         </div>
     </footer>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
